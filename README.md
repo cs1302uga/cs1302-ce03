@@ -51,6 +51,14 @@ commands (or series of commands) to accomplish this.
 1. `user1`: What is the octal mode of the `ex03` directory?  Do you think other users can see the contents of this directory?
 <hr/>
 
+1. `user1`: remove read permissions on `Loop.java`.  What command did you use?
+
+1. `user2`: modify `Loop.java`.  Yes, it is possible.  How did you do it?
+
+1. `user1`: remove all permissions on `Loop.java`.  Uh oh...
+
+1. `user1`: change directory permissions.  Ask user2 what they can/can't do now.  Can they still read the file if they have the full path?
+
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 <small>
