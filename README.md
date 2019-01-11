@@ -59,10 +59,9 @@ Write at least two commands (or series of commands) to accomplish this.
     
 ### File Permissions
 
-1. `user1`: What is the octal mode of the `exercise3` directory?  Do you think other users can see the contents of this directory?
+1. `user1`: What is the mode of the `exercise3` directory in both octal and symbolic notation?
 
-1. `user2`: can you perform an `ls` on `user1`'s `exercise3` directory?  Assuming you are still in your home directory, what exact 
-command did you use?
+1. `user2`: Can you successfuly perform an `ls` on `user1`'s `exercise3` directory?
 
 1. `user1`: From within the `exercise3` directory, turn off the read/execute group permissions and turn on the write group permission on 
 `Loop.java`.  What exact command did you use to accomplish this?
