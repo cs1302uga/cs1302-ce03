@@ -71,8 +71,9 @@ if needed, enable group write permission as well.
 1. `user1`: Delete `user2`'s message from `Loop.java`, save, then enable group read and group write persmissions
 on `Loop.java`.
 
-1. `user2`: fix `user1`'s `Loop.java` so that it is no longer an infinite loop.  Compile the program
-to the same location that `user1` compiled to earlier. Now, run the program. Why do you think it didn't work?
+1. `user2`: fix `user1`'s `Loop.java` so that it is no longer an infinite loop.  Now, try to compile the program
+to the same location that `user1` compiled to earlier. Were you able to successfully compile it?  If not, why do 
+think you were unsuccessful?
 
     **CHECKPOINT** Now we will look at directory permissions
 
