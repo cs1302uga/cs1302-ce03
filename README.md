@@ -68,8 +68,8 @@ if needed, enable group write permission as well.
 
 1. **TRICKY** `user2`: Add a single line Java comment to the end of `Loop.java`. Yes, it is possible. 
 
-1. `user1`: Delete `user2`'s message from `Loop.java`, save, then enable all permissions for user, group, 
-and other on `Loop.java`.
+1. `user1`: Delete `user2`'s message from `Loop.java`, save, then enable group read and group write persmissions
+on `Loop.java`.
 
 1. `user2`: fix `user1`'s `Loop.java` so that it is no longer an infinite loop.  Now, try to compile and run the program from within the
 default package for source code.  What command did you try?  Why do you think it didn't work?
