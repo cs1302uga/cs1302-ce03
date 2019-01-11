@@ -83,14 +83,18 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
    * `exercise3/thoughts` --> 700
    * `exercise3/thoughts/notes.txt` --> 660
 
-1. `group`: In your notes, create the following table (including the skipped rows; 8 rows total).
+1. `group`: In your notes, create the following table:
 
    | Mode | a | b | c | d | e |
    |------|---|---|---|---|---|
    | 700  |
    | 710  |
-   | ...  |
+   | 730  |
+   | 750  |
    | 770  |
+   
+   **NOTE:** For a directory, read and write permission are geneerally only useful in conjunction with
+   execute permission. For this reason, some modes were omitted. 
 
    Now, for each of the octal modes listed in the table, indicate whether or not `user2` is able to
    perform the actions listed below if `user1` sets `thoughts` to that mode:
@@ -99,7 +103,8 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
       * (b) Delete `notes.txt`.
       * (c) List the contents of `thoughts` using `ls`.
       * (d) Add a new file to `thoughts` called `notes2.txt`.
-      * (e) All of the above. 
+      * (e) 
+      * (f) All of the above. 
    
 1. `user1`: Explicitly set the mode for each of the following to the indicated octal (these are different from step 1):
    * `exercise3` --> 700
