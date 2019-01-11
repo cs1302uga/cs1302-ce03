@@ -85,7 +85,7 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
    * `exercise3/thoughts` --> 770
    * `exercise3/thoughts/notes.txt` --> 660
 
-1. `group`: For each of the following actions, determine the octal mode of `thoughts` that is closest to `770`
+1. **[TRICKY]** `group`: For each of the following actions, determine the octal mode of `thoughts` that is closest to `770`
 that will prevent `user2` to from successfully performing the action:
    * Read `notes.txt` using `cat`.
    * Delete `notes.txt`.
@@ -98,7 +98,7 @@ that will prevent `user2` to from successfully performing the action:
    * `exercise3/thoughts` --> 770
    * `exercise3/thoughts/notes.txt` --> 660
    
-1. `group`: For each of the following actions, determine the octal mode of `exercise3` that is closest to `770`
+1. **[TRICKY]** `group`: For each of the following actions, determine the octal mode of `exercise3` that is closest to `770`
 that will prevent `user2` to from successfully performing the action:
    * Read `notes.txt` using `cat`.
    * Delete `notes.txt`.
