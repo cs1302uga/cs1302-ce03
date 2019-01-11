@@ -60,7 +60,6 @@ Write at least two commands (or series of commands) to accomplish this.
 ### File Permissions
 
 1. `user1`: What is the octal mode of the `exercise3` directory?  Do you think other users can see the contents of this directory?
-<hr/>
 
 1. `user2`: can you perform an `ls` on `user1`'s `exercise3` directory?  Assuming you are still in your home directory, what exact 
 command did you use?
@@ -96,6 +95,8 @@ permissions on `Poem.txt`.  What command did you use and why does this work?
     1. Read the contents of the directory?  If so, ""
     
 1. `group`: What permissions do you feel are appropriate for your home directory?  Explain your choice.
+
+<hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
