@@ -63,8 +63,8 @@ Write at least two commands (or series of commands) to accomplish this.
 
 1. `user2`: Can you successfuly perform an `ls` on `user1`'s `exercise3` directory?
 
-1. `user1`: From within the `exercise3` directory, turn off the read/execute group permissions and turn on the write group permission on 
-`Loop.java`.  What exact command did you use to accomplish this?
+1. `user1`: Disable group read and group execute permissions for `Loop.java`. Additionally, 
+if needed, enable group write permission as well. 
 
 1. **TRICKY** `user2`: add a message to the end of `Loop.java`.  Yes, it is possible.  How did you do it?
 
