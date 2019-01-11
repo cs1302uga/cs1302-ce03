@@ -46,18 +46,39 @@ think you were unsuccessful?
 1. `user1`:Since `Loop.java` contains an infinite loop and is now running in the background, we will need to kill it.  Write at least two
 commands (or series of commands) to accomplish this.
 
-    **CHECKPOINT**
+    **CHECKPOINT** File Permissions
 
-1. `user1`: What is the octal mode of the `ex03` directory?  Do you think other users can see the contents of this directory?
+1. `user1`: What is the octal mode of the `exercise3` directory?  Do you think other users can see the contents of this directory?
 <hr/>
 
-1. `user1`: remove read permissions on `Loop.java`.  What command did you use?
+1. `user2`: can you perform an `ls` on `user1`'s `exercise3` directory?  What exact command did you use?
 
-1. `user2`: modify `Loop.java`.  Yes, it is possible.  How did you do it?
+1. `user1`: set read permissions on `Loop.java` and set write permissions for group only.  What command did you use?
 
-1. `user1`: remove all permissions on `Loop.java`.  Uh oh...
+1. **TRICKY** `user2`: add a message to the end of `Loop.java`.  Yes, it is possible.  How did you do it?
 
-1. `user1`: change directory permissions.  Ask user2 what they can/can't do now.  Can they still read the file if they have the full path?
+1. `user1`: set all permissions on `Loop.java`
+
+1. `user2`: fix `user1`'s `Loop.java` so that it is no longer an infinite loop.  Now, try to compile and run the program from within the
+default package for source code.  What command did you try?  Why do you think it didn't work?
+
+    **CHECKPOINT** Now we will look at directory permissions
+
+1. `user1`: create a file called `Poem.txt` in the `exercise3` directory.  Write a one line poem inside of it.  Set all permissions on 
+`Poem.txt`.  What command did you use?
+
+1. `user2`: change directories to the `exercise3` directory of `user1`.  Add a line to the poem (doesn't have to be poetic).
+
+1. `user1`: change permissions on the `exercise3` directory to block any further modifications from `user1` (without changing file 
+permissions on `Poem.txt`.  What command did you use and why does this work?
+
+1. `user2`: change directory permissions.  Ask user2 what they can/can't do now.  Can they still read the file if they have the full path?
+
+1. `user1`: change directory permissions of `exercise3` to full permissions.  Which of the following could be performed by `user2`:
+
+    1. Create a file?  If so, what is the minimal change to permissions to deny this action?
+    1. Delete a file?  If so, what is ""
+    1. Read the contents of the directory?  If so, ""
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
