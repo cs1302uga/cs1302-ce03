@@ -85,13 +85,30 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
    * `exercise3/thoughts` --> 770
    * `exercise3/thoughts/notes.txt` --> 660
 
-1. 
+1. `group`: For each of the following actions, determine the octal mode of `thoughts` that is closest to `770`
+that will prevent `user2` to from successfully performing the action:
+   * Read `notes.txt` using `cat`.
+   * Delete `notes.txt`.
+   * List the contents of `thoughts` using `ls`.
+   * Add a new file called `notes2.txt`.
+   * All of the above. 
+   
+1. `user1`: Explicitly set the mode for each of the following to the indicated octal:
+   * `exercise3` --> 770
+   * `exercise3/thoughts` --> 770
+   * `exercise3/thoughts/notes.txt` --> 660
+   
+1. `group`: For each of the following actions, determine the octal mode of `exercise3` that is closest to `770`
+that will prevent `user2` to from successfully performing the action:
+   * Read `notes.txt` using `cat`.
+   * Delete `notes.txt`.
+   * List the contents of `thoughts` using `ls`.
+   * Add a new file called `notes2.txt`.
+   * All of the above. 
 
-1. `user2`: Attempt to add another note to the end of `user1`'s `notes.txt` file.
-Were you able to successfully do this?  If not, why do 
-think you were unsuccessful?
+1. `group`: What permissions do you feel are appropriate for a user's home directory?
+Explain your choice.
 
-1. 
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
