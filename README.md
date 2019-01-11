@@ -40,21 +40,22 @@ present working directory), then please note that  context as well.
 1. `user1`: What is the size and mode of `Loop.java`?  Assuming your present working directory is `exercise3`, what exact command did you
 use to find this?
 
-1. `user1`: Compile `Loop.java` and then run it as a background process.  
-   What command did you use to run it in the background?
+1. `user1`: Compile `Loop.java` and then run it as a background process.
 
 1. `user2`: Launch a terminal emulator on your laptop, connect to nike on your account (not the same account as `user1`).
 
-1. `user2`: find the Process ID (PID) of the executing `Loop.java` process from `user1`. What exact command did you use?
-**Hint:** try `ps` (maybe with a few options) to see every process in the system. Then filter the result with grep to see
+1. `user2`: Find the Process ID (PID) of the executing `Loop.java` process from `user1`.
+**Hint:** Try `ps` (maybe with a few options) to see every process in the system. You may need to filter the result with `grep`.
 
-1. `user2`: try to kill `user1`'s process.  What command(s) did you try?  Were you able to successfully kill the process?  If not, why do 
+1. `user2`: Try to kill `user1`'s process. Were you able to successfully kill the process?  If not, why do 
 think you were unsuccessful?
 
-1. `user1`:Since `Loop.java` contains an infinite loop and is now running in the background, we will need to kill it.  Write at least two
-commands (or series of commands) to accomplish this.
+1. `user1`: Since `Loop.java` contains an infinite loop and is now running in the background, we will need to terminate it.  
+Write at least two commands (or series of commands) to accomplish this.
 
-    **CHECKPOINT** File Permissions
+    **CHECKPOINT**
+    
+### File Permissions
 
 1. `user1`: What is the octal mode of the `exercise3` directory?  Do you think other users can see the contents of this directory?
 <hr/>
