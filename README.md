@@ -97,11 +97,11 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
    Now, for each of the octal modes listed in the table, indicate whether or not `user2` is able to
    perform the actions listed below if `user1` sets `thoughts` to that mode:
 
-      1. Read `notes.txt` using `cat`.
-      1. Delete `notes.txt`.
-      1. List the contents of `thoughts` using `ls`.
-      1. Add a new file called `notes2.txt`.
-      1. All of the above. 
+      a. Read `notes.txt` using `cat`.
+      b. Delete `notes.txt`.
+      c. List the contents of `thoughts` using `ls`.
+      d. Add a new file called `notes2.txt`.
+      e. All of the above. 
    
 1. `user1`: Explicitly set the mode for each of the following to the indicated octal:
    * `exercise3` --> 770
