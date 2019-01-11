@@ -31,16 +31,17 @@ the loop (or none at all), but the loop shouldn't print anything or take any use
 
     **CHECKPOINT**
     
-1. `user1`: What is the size and mode of `Loop.java`?  What exact command did you use to find this?
+1. `user1`: What is the size and mode of `Loop.java`?  Assuming your present working directory is `exercise3`, what exact command did you
+use to find this?
 
-1. `user1`: Compile `Loop.java` and then run it as a background process.  What exact command did you use to run this in the background?
+1. `user1`: Compile `Loop.java` and then run it as a background process.  What exact command did you use to run it in the background?
 
 1. `user2`: launch a terminal emulator on your laptop, connect to nike on your account (not the same account as `user1`).
 
-1. `user2`: find the Process ID (PID) of the executing `Loop.java` process from `user1`.  
-**Hint:** use `ps` to see every process in the system. Then filter the result with grep to see
+1. `user2`: find the Process ID (PID) of the executing `Loop.java` process from `user1`. What exact command did you use?
+**Hint:** try `ps` (maybe with a few options) to see every process in the system. Then filter the result with grep to see
 
-1. `user2`: try to kill `user1`'s process.  What commands did you try?  Were you able to successfully kill the process?  If not, why do 
+1. `user2`: try to kill `user1`'s process.  What command(s) did you try?  Were you able to successfully kill the process?  If not, why do 
 think you were unsuccessful?
 
 1. `user1`:Since `Loop.java` contains an infinite loop and is now running in the background, we will need to kill it.  Write at least two
@@ -51,25 +52,29 @@ commands (or series of commands) to accomplish this.
 1. `user1`: What is the octal mode of the `exercise3` directory?  Do you think other users can see the contents of this directory?
 <hr/>
 
-1. `user2`: can you perform an `ls` on `user1`'s `exercise3` directory?  What exact command did you use?
+1. `user2`: can you perform an `ls` on `user1`'s `exercise3` directory?  Assuming you are still in your home directory, what exact 
+command did you use?
 
-1. `user1`: set read permissions on `Loop.java` and set write permissions for group only.  What command did you use?
+1. `user1`: From within the `exercise3` directory, turn off the read/execute group permissions and turn on the write group permission on 
+`Loop.java`.  What exact command did you use to accomplish this?
 
 1. **TRICKY** `user2`: add a message to the end of `Loop.java`.  Yes, it is possible.  How did you do it?
 
-1. `user1`: set all permissions on `Loop.java`
+1. `user1`: Delete `user2`'s message from `Loop.java`. Set all permissions on `Loop.java`.  What exact command did you use?
 
 1. `user2`: fix `user1`'s `Loop.java` so that it is no longer an infinite loop.  Now, try to compile and run the program from within the
 default package for source code.  What command did you try?  Why do you think it didn't work?
 
     **CHECKPOINT** Now we will look at directory permissions
 
-1. `user1`: create a file called `Poem.txt` in the `exercise3` directory.  Write a one line poem inside of it.  Set all permissions on 
-`Poem.txt`.  What command did you use?
+1. `user1`: create a subdirectory within `exercise3` called `notes`. Inside of the `general` directory, add a file called `notes.txt`.
+Give read/write access to user, group, and other on `notes.txt`.  What exact command did you use?
 
-1. `user2`: change directories to the `exercise3` directory of `user1`.  Add a line to the poem (doesn't have to be poetic).
+1. `user1`: change the permissions of the `exercise3` and `thoughts` directories to 755.
 
-1. `user1`: change permissions on the `exercise3` directory to block any further modifications from `user1` (without changing file 
+1. `group`: 
+
+1. `user1`: change permissions on the `notes` directory to block any further modifications from `user1` (without changing file 
 permissions on `Poem.txt`.  What command did you use and why does this work?
 
 1. `user2`: change directory permissions.  Ask user2 what they can/can't do now.  Can they still read the file if they have the full path?
@@ -79,6 +84,8 @@ permissions on `Poem.txt`.  What command did you use and why does this work?
     1. Create a file?  If so, what is the minimal change to permissions to deny this action?
     1. Delete a file?  If so, what is ""
     1. Read the contents of the directory?  If so, ""
+    
+1. `group`: What permissions do you feel are appropriate for your home directory?  Explain your choice.
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 
