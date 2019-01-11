@@ -34,9 +34,10 @@ who should perform the actions for that step. Make sure you execute them in orde
 1. `user1`: What is the size and mode of `Loop.java`?  Assuming your present working directory is `exercise3`, what exact command did you
 use to find this?
 
-1. `user1`: Compile `Loop.java` and then run it as a background process.  What exact command did you use to run it in the background?
+1. `user1`: Compile `Loop.java` and then run it as a background process.  
+   What is the full command that you used to run it in the background?
 
-1. `user2`: launch a terminal emulator on your laptop, connect to nike on your account (not the same account as `user1`).
+1. `user2`: Launch a terminal emulator on your laptop, connect to nike on your account (not the same account as `user1`).
 
 1. `user2`: find the Process ID (PID) of the executing `Loop.java` process from `user1`. What exact command did you use?
 **Hint:** try `ps` (maybe with a few options) to see every process in the system. Then filter the result with grep to see
