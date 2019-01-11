@@ -75,28 +75,24 @@ on `Loop.java`.
 to the same location that `user1` compiled to earlier. Were you able to successfully compile it?  If not, why do 
 think you were unsuccessful?
 
-    **CHECKPOINT** Now we will look at directory permissions
-
-1. `user1`: create a subdirectory within `exercise3` called `notes`. Inside of the `general` directory, add a file called `notes.txt`.
-Give read/write access to user, group, and other on `notes.txt`.  What exact command did you use?
-
-1. `user1`: change the permissions of the `exercise3` and `thoughts` directories to 755.
-
-1. `group`: 
-
-1. `user1`: change permissions on the `notes` directory to block any further modifications from `user1` (without changing file 
-permissions on `Poem.txt`.  What command did you use and why does this work?
-
-1. `user2`: change directory permissions.  Ask user2 what they can/can't do now.  Can they still read the file if they have the full path?
-
-1. `user1`: change directory permissions of `exercise3` to full permissions.  Which of the following could be performed by `user2`:
-
-    1. Create a file?  If so, what is the minimal change to permissions to deny this action?
-    1. Delete a file?  If so, what is ""
-    1. Read the contents of the directory?  If so, ""
+    **CHECKPOINT** 
     
-1. `group`: What permissions do you feel are appropriate for your home directory?  Explain your choice.
+### Directory Permissions
 
+1. `user1`: Create a subdirectory within `exercise3` called `thoughts`. Inside of the `thoughts` directory, 
+add a file called `notes.txt`. Enable read and write permissions for group and other on `notes.txt`. Make a note
+of the octal mode for each of the following so that you can `chmod` them back in later steps, if requested:
+  * `exercise3`
+  * `exercise3/thoughts`
+  * `exercise3/thoughts/notes.txt`
+
+1. 
+
+1. `user2`: Attempt to add another note to the end of `user1`'s `notes.txt` file.
+Were you able to successfully do this?  If not, why do 
+think you were unsuccessful?
+
+1. 
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
