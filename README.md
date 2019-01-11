@@ -16,9 +16,11 @@ logged into the Nike server. **NOTE:** For this exercise, at least two group mem
 access to Nike at the same time. When relevant, the instructions will refer to `user1`, `user2`, and `group` to indicate 
 who should perform the actions for that step. Make sure you execute them in order.
 
-1. `user1`: launch a terminal emulator and create the subdirectory structure seen below. In `Loop.java`, add the appropriate package
-statement at the top and write an infinite loop in the main method.  You are free to do any sort of mathematical calculations you wish in
-the loop (or none at all), but the loop shouldn't print anything or take any user input.
+1. `user1`: Launch a terminal emulator and create the subdirectory structure seen below. 
+   In `Loop.java`, create the `cs1302.loop.Loop` class (fully qualified name) and write an infinite 
+   loop in the `main` method.  
+   You are free to do any sort of mathematical calculations you wish in
+   the loop (or none at all), but the loop shouldn't print anything or take any user input.
 
    ```
    exercise3
@@ -28,9 +30,7 @@ the loop (or none at all), but the loop shouldn't print anything or take any use
                      |--- Loop.java
    4 directories, 1 file
    ```
-
-    **CHECKPOINT**
-    
+   
 1. `user1`: What is the size and mode of `Loop.java`?  Assuming your present working directory is `exercise3`, what exact command did you
 use to find this?
 
