@@ -82,29 +82,30 @@ think you were unsuccessful?
 1. `user1`: Create a subdirectory within `exercise3` called `thoughts`. Inside of the `thoughts` directory, 
 add a file called `notes.txt`. Explicitly set the mode for each of the following to the indicated octal:
    * `exercise3` --> 770
-   * `exercise3/thoughts` --> 770
+   * `exercise3/thoughts` --> 700
    * `exercise3/thoughts/notes.txt` --> 660
 
-1. **[TRICKY]** `group`: For each of the following actions, determine the octal mode of `thoughts` that is closest to `770`
-that will prevent `user2` to from successfully performing the action:
-   * Read `notes.txt` using `cat`.
-   * Delete `notes.txt`.
-   * List the contents of `thoughts` using `ls`.
-   * Add a new file called `notes2.txt`.
-   * All of the above. 
+1. **[TRICKY]** `group`: In your notes, create the following table (including the skipped rows; 8 rows total):
+
+| Mode | 1 | 2 | 3 | 4 | 5 |
+|------|---|---|---|---|---|
+| 700  |
+| 710  |
+| ...  |
+| 770  |
+
+Now, for each of the octal modes listed in the table, indicate whether or not `user2` is able to
+perform the actions listed below if `user1` sets `thoughts` to that mode:
+   1. Read `notes.txt` using `cat`.
+   1. Delete `notes.txt`.
+   1. List the contents of `thoughts` using `ls`.
+   1. Add a new file called `notes2.txt`.
+   1. All of the above. 
    
 1. `user1`: Explicitly set the mode for each of the following to the indicated octal:
    * `exercise3` --> 770
    * `exercise3/thoughts` --> 770
    * `exercise3/thoughts/notes.txt` --> 660
-   
-1. **[TRICKY]** `group`: For each of the following actions, determine the octal mode of `exercise3` that is closest to `770`
-that will prevent `user2` to from successfully performing the action:
-   * Read `notes.txt` using `cat`.
-   * Delete `notes.txt`.
-   * List the contents of `thoughts` using `ls`.
-   * Add a new file called `notes2.txt`.
-   * All of the above. 
 
 1. `group`: What permissions do you feel are appropriate for a user's home directory?
 Explain your choice.
