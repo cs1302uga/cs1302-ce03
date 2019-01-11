@@ -22,6 +22,8 @@ who should perform the actions for that step. Make sure you execute them in orde
 typed to make the related action happen. If context is necessary (e.g., the command depends on your 
 present working directory), then please note that  context as well.
 
+### Multiuser Intro
+
 1. `user1`: Launch a terminal emulator and create the subdirectory structure seen below. 
    In `Loop.java`, create the `cs1302.loop.Loop` class (fully qualified name) and write an infinite 
    loop in the `main` method.  
