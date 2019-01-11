@@ -14,7 +14,10 @@ This exercise is designed to ...
 In your notes, clearly answer the following questions. These instructions assume that you are 
 logged into the Nike server. **NOTE:** For this exercise, at least two group members will need
 access to Nike at the same time. When relevant, the instructions will refer to `user1`, `user2`, and `group` to indicate 
-who should perform the actions for that step. Make sure you execute them in order.
+who should perform the actions for that step. Make sure you execute them in order. When asked for
+a command, please provide the full command that you typed to make the related action happen. If context
+is necessary (e.g., the command depends on your present working directory), then please note that 
+context as well.
 
 1. `user1`: Launch a terminal emulator and create the subdirectory structure seen below. 
    In `Loop.java`, create the `cs1302.loop.Loop` class (fully qualified name) and write an infinite 
@@ -35,7 +38,7 @@ who should perform the actions for that step. Make sure you execute them in orde
 use to find this?
 
 1. `user1`: Compile `Loop.java` and then run it as a background process.  
-   What is the full command that you used to run it in the background?
+   What command did you use to run it in the background?
 
 1. `user2`: Launch a terminal emulator on your laptop, connect to nike on your account (not the same account as `user1`).
 
