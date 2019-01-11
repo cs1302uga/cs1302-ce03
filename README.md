@@ -80,11 +80,10 @@ think you were unsuccessful?
 ### Directory Permissions
 
 1. `user1`: Create a subdirectory within `exercise3` called `thoughts`. Inside of the `thoughts` directory, 
-add a file called `notes.txt`. Enable read and write permissions for group and other on `notes.txt`. Make a note
-of the octal mode for each of the following so that you can `chmod` them back in later steps, if requested:
-  * `exercise3`
-  * `exercise3/thoughts`
-  * `exercise3/thoughts/notes.txt`
+add a file called `notes.txt`. Explicitly set the mode for each of the following to the indicated octal:
+  * `exercise3` --> 770
+  * `exercise3/thoughts` --> 770
+  * `exercise3/thoughts/notes.txt` --> 660
 
 1. 
 
