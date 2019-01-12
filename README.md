@@ -53,7 +53,7 @@ think you were unsuccessful?
 1. `user1`: Since `Loop.java` contains an infinite loop and is now running in the background, we will need to terminate it.  
 Write at least two commands (or series of commands) to accomplish this.
 
-    **CHECKPOINT**
+**CHECKPOINT**
     
 ### File Permissions
 
@@ -73,7 +73,7 @@ on `Loop.java`.
 to the same location that `user1` compiled to earlier. Were you able to successfully compile it?  If not, why do 
 think you were unsuccessful?
 
-    **CHECKPOINT** 
+**CHECKPOINT** 
     
 ### Directory Permissions
 
@@ -121,7 +121,8 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
 
    Now, for each of the octal modes listed in the table, indicate whether or not `user2` is able to
    perform the actions listed below if `user1` sets `exercise3` to that mode. After each row, reset the
-   modes and recreate files, if needed.
+   modes and recreate files, if needed. **NOTE:** Unlike the previous, similar question, you are changing
+   the mode for `exercise3` instead of `thoughts`.
 
       * (a) Read `notes.txt` using `cat`.
       * (b) Delete `notes.txt`.
