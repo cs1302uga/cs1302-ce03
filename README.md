@@ -93,7 +93,7 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
    | 750  |
    | 770  |
    
-   **NOTE:** For a directory, read and write permission are geneerally only useful in conjunction with
+   **NOTE:** For a directory, read and write permission are generally only useful in conjunction with
    execute permission. For this reason, some modes were omitted. 
 
    Now, for each of the octal modes listed in the table, indicate whether or not `user2` is able to
