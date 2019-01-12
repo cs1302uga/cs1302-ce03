@@ -117,9 +117,7 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
    |------|---|---|---|---|---|
    | 700  |
    | 710  |
-   
-   **NOTE:** For a directory, read and write permission are geneerally only useful in conjunction with
-   execute permission. For this reason, some modes were omitted. 
+   | 720  |
 
    Now, for each of the octal modes listed in the table, indicate whether or not `user2` is able to
    perform the actions listed below if `user1` sets `exercise3` to that mode. After each row, reset the
@@ -130,6 +128,9 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
       * (c) List the contents of `thoughts` using `ls`.
       * (d) Add a new file to `thoughts` called `notes2.txt`.
       * (e) Use `cd` to change to `thoughts`. 
+
+1. In the previous question, you probably noticed something interesting about the row for mode 710.
+Is the same set of actions possible with other modes? If so, list them. 
 
 1. `group`: What permissions do you feel are appropriate for a user's home directory?
 Explain your choice.
