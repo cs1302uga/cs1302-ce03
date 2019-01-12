@@ -85,8 +85,8 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
 
 1. `group`: In your notes, create the following table:
 
-   | Mode | a | b | c | d | e |
-   |------|---|---|---|---|---|
+   | Mode | a | b | c | d | e | f |
+   |------|---|---|---|---|---|---|
    | 700  |
    | 710  |
    | 730  |
