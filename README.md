@@ -136,6 +136,8 @@ Is the same set of actions possible with other modes? If so, list them.
 1. `group`: What permissions do you feel are appropriate for a user's home directory?
 Explain your choice.
 
+**CHECKPOINT** 
+
 <hr/>
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-nd/4.0/)
