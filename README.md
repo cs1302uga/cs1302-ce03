@@ -1,5 +1,8 @@
 # ce03 Multiuser System Fun Times
 
+This class exercise is designed to familiarize students with file and directory permissions in a 
+multiuser Unix environment.
+
 ## Prerequisite Knowledge
 
 * Understanding of Unix basics, including commands, text editors, etc.
