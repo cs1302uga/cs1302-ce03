@@ -62,9 +62,22 @@ Write at least two commands (or series of commands) to accomplish this.
 
 1. `user1`: What is the mode of the `exercise3` directory in both octal and symbolic notation?
 
-1. `user1`: Add other execute permission to your home directory. This is needed because student
-   home directories are in a group that is different from `ugrads`. Subdirectories should 
-   belong to the `ugrads` group as expected. 
+1. `user1`: Carefully change the permission of your home directory to add execute permission for
+   other. Be very careful! If you mess up the user permissions on your home directory, then that
+   can lead to unintended, bad consequences. Since this is a high stakes step, the exact recommended 
+   command is provided below:
+   
+   ```
+   $ chmod o+x ~
+   ```
+   
+   This step is needed because student home directories on Nike are in a group that is different 
+   from `ugrads`. Subdirectories of your home directory should belong to the `ugrads` group as expected.
+   You can remove execute permission for other __at the end of this activity__ using:
+   
+   ```
+   $ chmod o-x ~
+   ```
    
 1. `user2`: Can you successfuly perform an `ls` on `user1`'s `exercise3` directory?
 
