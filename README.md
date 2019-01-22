@@ -62,11 +62,11 @@ Write at least two commands (or series of commands) to accomplish this.
 
 1. `user1`: What is the mode of the `exercise3` directory in both octal and symbolic notation?
 
-1. `user2`: Can you successfuly perform an `ls` on `user1`'s `exercise3` directory?
-
-1. `user2`: Add group execute permission to your home directory. This is needed because student
+1. `user1`: Add other execute permission to your home directory. This is needed because student
    home directories are in a group that is different from `ugrads`. Subdirectories should 
    belong to the `ugrads` group as expected. 
+   
+1. `user2`: Can you successfuly perform an `ls` on `user1`'s `exercise3` directory?
 
 1. `user1`: Disable group read and group execute permissions for `Loop.java`. Additionally, 
 if needed, enable group write permission as well. 
