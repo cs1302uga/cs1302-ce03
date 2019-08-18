@@ -24,8 +24,9 @@ In your notes, clearly answer the following questions. These instructions assume
 logged into the Nike server. 
 
 **NOTE 1:** For this exercise, at least two group members will need
-access to Nike at the same time. When relevant, the instructions will refer to `user1`, `user2`, and `group` to indicate 
-who should perform the actions for that step. Make sure you execute them in order.
+access to Nike at the same time. When relevant, the instructions will refer to **[user1]**, 
+**[user2]**, and **[group]** to indicate who should perform the actions for that step. 
+Make sure you execute them in order.
 
 **NOTE 2:** If a step requires you to enter in a command, please provide in your notes the full command that you 
 typed to make the related action happen. If context is necessary (e.g., the command depends on your 
@@ -33,22 +34,23 @@ present working directory), then please note that  context as well.
 
 ### Multiuser Intro
 
-1. `user1`: Launch a terminal emulator and create the subdirectory structure seen below. 
-   In `Loop.java`, create the `cs1302.loop.Loop` class (fully qualified name) and write an infinite 
-   loop in the `main` method.  
-   You are free to do any sort of mathematical calculations you wish in
-   the loop (or none at all), but the loop shouldn't print anything or take any user input.
+1. **[user1]:** Launch a terminal emulator, login to Nike, then create the subdirectory structure seen below. 
 
-   ```
-   exercise3
+    ```
+    exercise3
     |--- src
           |--- cs1302
                 |--- loop
                      |--- Loop.java
    4 directories, 1 file
    ```
+
+1. **[user1]** In `Loop.java`, create the `cs1302.loop.Loop` class (fully qualified name) 
+   and write an infinite loop in the `main` method.  You are free to do any sort of 
+   mathematical calculations you wish in the loop (or none at all), but the loop 
+   shouldn't print anything or take any user input.
    
-1. `user1`: What is the size and mode of `Loop.java`?  Assuming your present working directory is `exercise3`, what exact command did you
+1. **[user1]** What is the size and mode of `Loop.java`?  Assuming your present working directory is `exercise3`, what exact command did you
 use to find this?
 
 1. `user1`: Compile `Loop.java` and then run it as a background process.
