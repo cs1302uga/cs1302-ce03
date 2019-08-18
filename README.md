@@ -48,7 +48,7 @@ present working directory), then please note that  context as well.
    4 directories, 1 file
    ```
 
-1. **[user1]:** Change into the `exervise3` directory. For the rest of this exercise, do not
+1. **[user1]:** Change into the `exercise3` directory. For the rest of this exercise, do not
    change out of this directory unless the instructions explicitly ask you to do so. 
 
 1. **[user1]:** Use Emacs to open `Loop.java` in `src/cs1302/loop` without changing your
@@ -94,14 +94,18 @@ present working directory), then please note that  context as well.
    shows every process that it running on the system, which is a little overwhelming. Remember, 
    you can pipe the output of this program into `grep` to filter the output to only include
    certain entries (e.g., ones containing user1's username).
+   
+   In your notes, include the piped `ps` command that you used to produce the desired output
+   as well as the PID that you found. Note that the PID is execution specific, i.e., a 
+   different one is used every time a new process is created. 
 
 1. **[user2]:** Let's see if you can interfere with user1's process on the system. Ordinarily,
    this would be agains the UGA Policies on the Use of Computers, however, we will make a 
-   brief exception for you to do the following: try to kill `user1`'s process. Were you successful?
+   brief exception for you to do the following: try to kill user1's process. Were you successful?
    What was the output from the `kill` command you used?
 
-1. **[user1]:** Most Unix systems are setup to only allow the user's who launch a program
-   to terminater it. The usual exception to this are the superusers (i.e., the system
+1. **[user1]:** Most Unix systems are setup to only allow the user who launches a program
+   to terminate it. The usual exception to this are the superusers (i.e., the system
    administrators). It looks like user2 is not a superuser. Phew! Please go ahead and 
    terminate the process yourself. What command or sequence of commands did you use?
 
@@ -109,10 +113,10 @@ present working directory), then please note that  context as well.
     
 ### File Permissions
 
-1. `user1`: What is the mode of the `exercise3` directory in both octal and symbolic notation?
+1. **[user1]:** What is the mode of the `exercise3` directory in both octal and symbolic notation?
 
-1. `user1`: Carefully change the permission of your home directory to add execute permission for
-   other. Be very careful! If you mess up the user permissions on your home directory, then that
+1. **[user1]:** Carefully change the permission of your home directory to add execute permission for
+   other. **Be very careful!** If you mess up the user permissions on your home directory, then that
    can lead to unintended, bad consequences. Since this is a high stakes step, the exact recommended 
    command is provided below:
    
@@ -121,17 +125,18 @@ present working directory), then please note that  context as well.
    ```
    
    This step is needed because student home directories on Nike are in a group that is different 
-   from `ugrads`. Subdirectories of your home directory should belong to the `ugrads` group as expected.
-   You can remove execute permission for other __at the end of this activity__ using:
+   from `ugrads`. Subdirectories of your home directory should belong to the `ugrads` group as 
+   expected. You should remove execute permission for other __at the end of this activity__ using:
    
    ```
    $ chmod o-x ~
    ```
    
-1. `user2`: Can you successfuly perform an `ls` on `user1`'s `exercise3` directory?
+1. **[user2]:** Can you successfuly perform an `ls` on user1's `exercise3` directory?
+   Don't be afraid to ask them for the absolute path of their `exercise3` directory. 
 
-1. `user1`: Disable group read and group execute permissions for `Loop.java`. Additionally, 
-if needed, enable group write permission as well. 
+1. **[user1]:** Disable group read and group execute permissions for `Loop.java`. 
+   Additionally, if needed, enable group write permission as well. 
 
 1. **TRICKY** `user2`: Add a single line Java comment to the end of `Loop.java`. Yes, it is possible. 
 
