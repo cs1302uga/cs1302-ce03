@@ -113,6 +113,16 @@ present working directory), then please note that  context as well.
     
 ### File Permissions
 
+1. **[group]:** Each person in the group should execute the following command:
+   
+   ```
+   $ umask
+   ```
+   
+   If the output is `0022`, then proceed to the next step. Otherwise, **please see an instructor**
+   so that they can inspect your Bash configuration to ensure that you can successfully complete
+   this exercise. 
+
 1. **[user1]:** What is the mode of the `exercise3` directory in both octal and symbolic notation?
 
 1. **[user1]:** Carefully change the permission of your home directory to add execute permission for
