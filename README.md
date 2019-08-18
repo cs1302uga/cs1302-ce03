@@ -149,12 +149,14 @@ present working directory), then please note that  context as well.
    permission and others have no permissions. What command(s) did you use? 
    What is the new mode for `Loop.java`? 
 
-1. **[user2]:** Try to open user1's `Loop.java` using Emacs. In your notes, eplain
-   why this doesn't work. 
+1. **[user2]:** Try to open user1's `Loop.java` using `cat`. In your notes, eplain
+   why this doesn't work (saying permission denied is not a sufficient answer). 
 
-1. **[user2]:** Add a single line Java comment to the end of `Loop.java`. Yes, it is possible. 
+1. **[user2]:** Use `echo` and output redirection to append a single line Java comment 
+   to the end of `Loop.java`. **Before you type anything,** remember that there is a
+   big difference between `>` and `>>` when performing output redirection. 
 
-1. `user1`: Delete `user2`'s message from `Loop.java`, save, then enable group read and group write persmissions
+1. **[user1]:** Delete `user2`'s message from `Loop.java`, save, then enable group read and group write persmissions
 on `Loop.java`.
 
 1. `user2`: fix `user1`'s `Loop.java` so that it is no longer an infinite loop.  Now, try to compile the program
