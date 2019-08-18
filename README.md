@@ -90,15 +90,20 @@ present working directory), then please note that  context as well.
    $ ps aux
    ```
    
-   This command shows every process that it running on the system. Remember, you can 
-   pipe the output of this program into `grep` to filter the output to only include
+   The second column in the output denotes the PID for each process. However, this command 
+   shows every process that it running on the system, which is a little overwhelming. Remember, 
+   you can pipe the output of this program into `grep` to filter the output to only include
    certain entries (e.g., ones containing user1's username).
 
-1. **[user2]:** Try to kill `user1`'s process. Were you able to successfully kill the process?  If not, why do 
-think you were unsuccessful?
+1. **[user2]:** Let's see if you can interfere with user1's process on the system. Ordinarily,
+   this would be agains the UGA Policies on the Use of Computers, however, we will make a 
+   brief exception for you to do the following: try to kill `user1`'s process. Were you successful?
+   What was the output from the `kill` command you used?
 
-1. **[user1]:** Since `Loop.java` contains an infinite loop and is now running in the background, 
-   we will need to terminate it. Write at least two commands (or series of commands) to accomplish this.
+1. **[user1]:** Most Unix systems are setup to only allow the user's who launch a program
+   to terminater it. The usual exception to this are the superusers (i.e., the system
+   administrators). It looks like user2 is not a superuser. Phew! Please go ahead and 
+   terminate the process yourself. What command or sequence of commands did you use?
 
 **CHECKPOINT**
     
