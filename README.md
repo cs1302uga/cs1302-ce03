@@ -34,10 +34,13 @@ present working directory), then please note that  context as well.
 
 ### Multiuser Intro
 
-1. **[user1]:** Launch a terminal emulator, login to Nike, then create the subdirectory structure seen below. 
+1. **[user1]:** Launch a terminal emulator, login to Nike, then create the subdirectory structure 
+   seen below. What single command can be used to create this hierarchy of directories? Ignore
+   `Loop.java` for now.
 
     ```
     exercise3
+    |--- bin
     |--- src
           |--- cs1302
                 |--- loop
@@ -45,15 +48,31 @@ present working directory), then please note that  context as well.
    4 directories, 1 file
    ```
 
-1. **[user1]** In `Loop.java`, create the `cs1302.loop.Loop` class (fully qualified name) 
-   and write an infinite loop in the `main` method.  You are free to do any sort of 
-   mathematical calculations you wish in the loop (or none at all), but the loop 
-   shouldn't print anything or take any user input.
-   
-1. **[user1]** What is the size and mode of `Loop.java`?  Assuming your present working directory is `exercise3`, what exact command did you
-use to find this?
+1. **[user1]:** Change into the `exervise3` directory. For the rest of this exercise, do not
+   change out of this directory unless the instructions explicitly ask you to do so. 
 
-1. `user1`: Compile `Loop.java` and then run it as a background process.
+1. **[user1]:** Use Emacs to open `Loop.java` in `src/cs1302/loop` without changing your
+   present working directory. Remember, the file will not actually be created until you
+   save it.
+   
+1. **[user1]:** In `Loop.java`, create the `cs1302.loop.Loop` class (fully qualified name) 
+   and write an infinite loop in the `main` method that doesn't cause any output. For example,
+   you might write the following: 
+   
+   ```java
+   while (true) {
+       int a = 2;
+   } // while
+   ```
+   
+   Be sure to save `Loop.java`, then close Emacs. 
+  
+1. **[user1]:** What is the size and mode of `Loop.java`? 
+   What exact command did you use to find this?
+
+1. **[user1]:** Compile `Loop.java` specifying the default package for compiled code as `bin`.
+
+1. **[user1]:** Run `cs1302.loop.Loop` as a background process.
 
 1. `user2`: Launch a terminal emulator on your laptop, connect to nike on your account (not the same account as `user1`).
 
