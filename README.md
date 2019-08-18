@@ -145,10 +145,14 @@ present working directory), then please note that  context as well.
 1. **[user2]:** Can you successfuly perform an `ls` on user1's `exercise3` directory?
    Don't be afraid to ask them for the absolute path of their `exercise3` directory. 
 
-1. **[user1]:** Disable group read and group execute permissions for `Loop.java`. 
-   Additionally, if needed, enable group write permission as well. 
+1. **[user1]:** Change the mode for `Loop.java` so that group members only have write
+   permission and others have no permissions. What command(s) did you use? 
+   What is the new mode for `Loop.java`? 
 
-1. **TRICKY** `user2`: Add a single line Java comment to the end of `Loop.java`. Yes, it is possible. 
+1. **[user2]:** Try to open user1's `Loop.java` using Emacs. In your notes, eplain
+   why this doesn't work. 
+
+1. **[user2]:** Add a single line Java comment to the end of `Loop.java`. Yes, it is possible. 
 
 1. `user1`: Delete `user2`'s message from `Loop.java`, save, then enable group read and group write persmissions
 on `Loop.java`.
