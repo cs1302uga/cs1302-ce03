@@ -248,15 +248,20 @@ present working directory), then please note that  context as well.
       
    1. **[user1]:** If user2 successfully created `notes2.txt`, then delete it.
 
-1. In the previous question, you probably noticed something interesting 
-   about the row for mode 710.
+1. **[group]:** In the previous question, you probably noticed something
+   interesting about the row for mode 710.
    Is the same set of actions possible with other group permissions? If so, 
    list the three digit octal mode for each of them. 
 
-1. `group`: What permissions do you feel are appropriate for a user's home directory?
-Explain your choice.
+1. **[group]:** What permissions do you feel are appropriate for a user's
+   home directory?
+   Explain your choice.
 
 **CHECKPOINT** 
+
+1. **[group]:** Change the mode of your home directory back to 750.
+
+**NOT A CHECKPOINT**
 
 <hr/>
 
