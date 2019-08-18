@@ -152,9 +152,15 @@ present working directory), then please note that  context as well.
 1. **[user2]:** Try to open user1's `Loop.java` using `cat`. In your notes, eplain
    why this doesn't work (saying permission denied is not a sufficient answer). 
 
-1. **[user2]:** Use `echo` and output redirection to append a single line Java comment 
-   to the end of `Loop.java`. **Before you type anything,** remember that there is a
-   big difference between `>` and `>>` when performing output redirection. 
+1. 
+
+1. **[user2]:** We're about to ask you to use output redirection to modify another
+   student's file. Remember that there is a BIG difference between `>` and `>>` 
+   when performing output redirection. Take a moment to refresh your memory regarding
+   this before continuing with this step.
+   
+   Now that you remember the difference between `>` and `>>`, use output redirection 
+   to append a single line Java comment to the end of user1's `Loop.java`.  
 
 1. **[user1]:** Delete `user2`'s message from `Loop.java`, save, then enable group read and group write persmissions
 on `Loop.java`.
