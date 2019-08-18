@@ -177,13 +177,16 @@ present working directory), then please note that  context as well.
     
 ### Directory Permissions
 
-1. `user1`: Create a subdirectory within `exercise3` called `thoughts`. Inside of the `thoughts` directory, 
-add a file called `notes.txt`. Explicitly set the mode for each of the following to the indicated octal:
+1. **[user1]:** Create a subdirectory within `exercise3` called `thoughts`. Inside of the 
+   `thoughts` directory, add a file called `notes.txt`. Explicitly set the mode for each 
+   of the following to the indicated octal:
    * `exercise3` --> 770
    * `exercise3/thoughts` --> 700
    * `exercise3/thoughts/notes.txt` --> 660
 
-1. `group`: In your notes, create the following table:
+1. `group`: In your notes, create the table below. For a directory, read and write permission
+   are generally only useful in conjunction with execute permission. For this reason, some modes
+   are omitted.
 
    | Mode | a | b | c | d | e |
    |------|---|---|---|---|---|
@@ -192,21 +195,26 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
    | 730  |
    | 750  |
    | 770  |
+
+   Now, **for each row in the table**:
    
-   **NOTE:** For a directory, read and write permission are generally only useful in conjunction with
-   execute permission. For this reason, some modes were omitted. 
-
-   Now, for each of the octal modes listed in the table, indicate whether or not `user2` is able to
-   perform the actions listed below if `user1` sets `thoughts` to that mode. After each row, reset the
-   modes and recreate files, if needed.
-
+   1. **[user1]:** Change the mode of the `thoughts` directory to the value specified
+      in the Mode column.
+   
+   1. **[user2]:** Try each of the actions listed below record a yes/no in your table.
+      If anything surprises you, then be sure to write that down in your notes.
+      
       * (a) Read `notes.txt` using `cat`.
       * (b) Delete `notes.txt`.
       * (c) List the contents of `thoughts` using `ls`.
       * (d) Add a new file to `thoughts` called `notes2.txt`.
       * (e) Use `cd` to change to `thoughts`.
    
-1. `user1`: Explicitly set the mode for each of the following to the indicated octal (these are different from step 1):
+   1. **[user1]:** If user2 successfully deleted `notes.txt`, then recreate it and
+      change its mode to 660. 
+   
+1. **[user1]:** Explicitly set the mode for each of the following to the indicated octal 
+   (these are different from step 1):
    * `exercise3` --> 700
    * `exercise3/thoughts` --> 770
    * `exercise3/thoughts/notes.txt` --> 660
@@ -219,16 +227,22 @@ add a file called `notes.txt`. Explicitly set the mode for each of the following
    | 710  |
    | 720  |
 
-   Now, for each of the octal modes listed in the table, indicate whether or not `user2` is able to
-   perform the actions listed below if `user1` sets `exercise3` to that mode. After each row, reset the
-   modes and recreate files, if needed. **NOTE:** Unlike the previous, similar question, you are changing
-   the mode for `exercise3` instead of `thoughts`.
-
+   Now, **for each row in the table**:
+   
+   1. **[user1]:** Change the mode of the `exercise3` directory to the value specified
+      in the Mode column.
+      
+   1. **[user2]:** Try each of the actions listed below record a yes/no in your table.
+      If anything surprises you, then be sure to write that down in your notes.
+      
       * (a) Read `notes.txt` using `cat`.
       * (b) Delete `notes.txt`.
       * (c) List the contents of `thoughts` using `ls`.
       * (d) Add a new file to `thoughts` called `notes2.txt`.
       * (e) Use `cd` to change to `thoughts`. 
+      
+  1. **[user1]:** If user2 successfully deleted `notes.txt`, then recreate it and
+      change its mode to 660. 
 
 1. In the previous question, you probably noticed something interesting about the row for mode 710.
 Is the same set of actions possible with other modes? If so, list them. 
