@@ -72,18 +72,33 @@ present working directory), then please note that  context as well.
 
 1. **[user1]:** Compile `Loop.java` specifying the default package for compiled code as `bin`.
 
-1. **[user1]:** Run `cs1302.loop.Loop` as a background process.
+1. **[user1]:** Run `cs1302.loop.Loop` using `java`. Be sure to indicate the default package
+   for compiled code by appropriately setting the class path option. The program will hang
+   due to the infinite loop. To terminate the program, you can use `C-c`.
+   
+1. **[user1]:** Now run `cs1302.loop.Loop` as a background process.
+   What exact command did you use?
+   How do you know it worked (i.e., Is there a command you can use to verify this)? 
 
-1. `user2`: Launch a terminal emulator on your laptop, connect to nike on your account (not the same account as `user1`).
+1. **[user2]:** Launch a terminal emulator on your laptop, connect to nike on your account 
+   (not the same account as `user1`).
 
-1. `user2`: Find the Process ID (PID) of the executing `Loop.java` process from `user1`.
-**Hint:** Try `ps` (maybe with a few options) to see every process in the system. You may need to filter the result with `grep`.
+1. **[user2]:** Find the Process ID (PID) of user1's executing `cs1302.loop.Loop` process
+   using the following command:
+   
+   ```
+   $ ps aux
+   ```
+   
+   This command shows every process that it running on the system. Remember, you can 
+   pipe the output of this program into `grep` to filter the output to only include
+   certain entries (e.g., ones containing user1's username).
 
-1. `user2`: Try to kill `user1`'s process. Were you able to successfully kill the process?  If not, why do 
+1. **[user2]:** Try to kill `user1`'s process. Were you able to successfully kill the process?  If not, why do 
 think you were unsuccessful?
 
-1. `user1`: Since `Loop.java` contains an infinite loop and is now running in the background, we will need to terminate it.  
-Write at least two commands (or series of commands) to accomplish this.
+1. **[user1]:** Since `Loop.java` contains an infinite loop and is now running in the background, 
+   we will need to terminate it. Write at least two commands (or series of commands) to accomplish this.
 
 **CHECKPOINT**
     
