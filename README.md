@@ -152,8 +152,6 @@ present working directory), then please note that  context as well.
 1. **[user2]:** Try to open user1's `Loop.java` using `cat`. In your notes, eplain
    why this doesn't work (saying permission denied is not a sufficient answer). 
 
-1. 
-
 1. **[user2]:** We're about to ask you to use output redirection to modify another
    student's file. Remember that there is a BIG difference between `>` and `>>` 
    when performing output redirection. Take a moment to refresh your memory regarding
@@ -162,12 +160,18 @@ present working directory), then please note that  context as well.
    Now that you remember the difference between `>` and `>>`, use output redirection 
    to append a single line Java comment to the end of user1's `Loop.java`.  
 
-1. **[user1]:** Delete `user2`'s message from `Loop.java`, save, then enable group read and group write persmissions
-on `Loop.java`.
+1. **[user1]:** Inspect your `Loop.java`. Did user2 successfully append a comment?
+   * If not, then recreate the previous contents of the file, save it, then have user2 try
+     the previous step again.
+   * If yes, then delete user2's message from `Loop.java`, save, then enable group read 
+     permission on `Loop.java`. In your notes, include the command you used.
 
-1. `user2`: fix `user1`'s `Loop.java` so that it is no longer an infinite loop.  Now, try to compile the program
-to the same location that `user1` compiled to earlier. Were you able to successfully compile it?  If not, why do 
-think you were unsuccessful?
+1. **[user2]:** Modify user1's `Loop.java` so that it is no longer has an infinite loop.
+   What program did you use to edit the file?
+
+1. **[user1]:** Now that user2 has finished helping you modify your `Loop.java`,
+   remove group write permission from `Loop.java` to prevent user2 or other in the
+   same group from making further changes. 
 
 **CHECKPOINT** 
     
