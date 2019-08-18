@@ -1,5 +1,7 @@
 # ce03 Multiuser System Fun Times
 
+![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+
 This class exercise is designed to familiarize students with file and directory permissions in a 
 multiuser Unix environment.
 
