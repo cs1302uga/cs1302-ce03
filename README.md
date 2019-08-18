@@ -243,10 +243,10 @@ present working directory), then please note that  context as well.
       * (d) Add a new file to `thoughts` called `notes2.txt`.
       * (e) Use `cd` to change to `thoughts`. 
       
-  1. **[user1]:** If user2 successfully deleted `notes.txt`, then recreate it and
+   1. **[user1]:** If user2 successfully deleted `notes.txt`, then recreate it and
       change its mode to 660. 
       
-  1. **[user1]:** If user2 successfully created `notes2.txt`, then delete it.
+   1. **[user1]:** If user2 successfully created `notes2.txt`, then delete it.
 
 1. In the previous question, you probably noticed something interesting about the row for mode 710.
 Is the same set of actions possible with other modes? If so, list them. 
