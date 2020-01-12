@@ -1,5 +1,6 @@
 # ce03 Multiuser System Fun Times
 
+<!-- ![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue) -->
 ![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
 
 This class exercise is designed to familiarize students with file and directory permissions in a 
@@ -72,7 +73,8 @@ present working directory), then please note that  context as well.
 1. **[user1]:** What is the size and mode of `Loop.java`? 
    What exact command did you use to find this?
 
-1. **[user1]:** Compile `Loop.java` specifying the default package for compiled code as `bin`.
+1. **[user1]:** Compile `Loop.java` specifying the default package for compiled code as `bin`. 
+   As always, be sure to write the full command you used in your notes.
 
 1. **[user1]:** Run `cs1302.loop.Loop` using `java`. Be sure to indicate the default package
    for compiled code by appropriately setting the class path option. The program will hang
@@ -102,7 +104,7 @@ present working directory), then please note that  context as well.
    different one is used every time a new process is created. 
 
 1. **[user2]:** Let's see if you can interfere with user1's process on the system. Ordinarily,
-   this would be agains the UGA Policies on the Use of Computers, however, we will make a 
+   this would be against the UGA Policies on the Use of Computers, however, we will make a 
    brief exception for you to do the following: try to kill user1's process. Were you successful?
    What was the output from the `kill` command you used?
 
@@ -141,18 +143,21 @@ present working directory), then please note that  context as well.
    expected. You should remove execute permission for other __at the end of this activity__ using:
    
    ```
+   Don't execute the command below right now. Wait until the end of the class period.
+   
    $ chmod o-x ~
    ```
    
 1. **[user2]:** Can you successfuly perform an `ls` on user1's `exercise3` directory?
    Don't be afraid to ask them for the absolute path of their `exercise3` directory. 
+   Write the full command you used in your notes.
 
 1. **[user1]:** Change the mode for `Loop.java` so that group members only have write
    permission and others have no permissions. What command(s) did you use? 
    What is the new mode for `Loop.java`? 
 
-1. **[user2]:** Try to open user1's `Loop.java` using `cat`. In your notes, eplain
-   why this doesn't work (saying permission denied is not a sufficient answer). 
+1. **[user2]:** Try to see the contents of user1's `Loop.java` using `cat`. In your notes, 
+   explain why this doesn't work (saying permission denied is not a sufficient answer). 
 
 1. **[user2]:** We're about to ask you to use output redirection to modify another
    student's file. Remember that there is a BIG difference between `>` and `>>` 
@@ -160,7 +165,7 @@ present working directory), then please note that  context as well.
    this before continuing with this step.
    
    Now that you remember the difference between `>` and `>>`, use output redirection 
-   to append a single line Java comment to the end of user1's `Loop.java`.  
+   to **append** a single line Java comment to the end of user1's `Loop.java`. 
 
 1. **[user1]:** Inspect your `Loop.java`. Did user2 successfully append a comment?
    * If not, then recreate the previous contents of the file, save it, then have user2 try
@@ -168,12 +173,14 @@ present working directory), then please note that  context as well.
    * If yes, then delete user2's message from `Loop.java`, save, then enable group read 
      permission on `Loop.java`. In your notes, include the command you used.
 
-1. **[user2]:** Modify user1's `Loop.java` so that it is no longer has an infinite loop.
+1. **[user2]:** Now that you have read permission, open user1's `Loop.java` file and
+   modify it so that it is no longer has an infinite loop.
    What program did you use to edit the file?
 
 1. **[user1]:** Now that user2 has finished helping you modify your `Loop.java`,
    remove group write permission from `Loop.java` to prevent user2 or other in the
-   same group from making further changes. 
+   same group from making further changes. As always, write the full command you used
+   in your notes.
 
 **CHECKPOINT** 
     
