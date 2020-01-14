@@ -1,7 +1,6 @@
 # ce03 Multiuser System Fun Times
 
-<!-- ![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue) -->
-![Approved for: Fall 2019](https://img.shields.io/badge/Approved%20for-Fall%202019-brightgreen)
+![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
 
 This class exercise is designed to familiarize students with file and directory permissions in a 
 multiuser Unix environment.
