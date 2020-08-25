@@ -8,7 +8,7 @@ multiuser Unix environment.
 ## Prerequisite Knowledge
 
 * Understanding of Unix basics, including commands, text editors, etc.
-* Java packages.
+* [CSCI 1302 Package Tutorial](https://github.com/cs1302uga/cs1302-tutorials/blob/master/packages.md)
 * [Unix Tutorial Five](http://www.ee.surrey.ac.uk/Teaching/Unix/unix5.html)
 * [CSCI 1302 Octal Mode Reading](https://github.com/cs1302uga/cs1302-tutorials/blob/master/octal-mode.md)
 
