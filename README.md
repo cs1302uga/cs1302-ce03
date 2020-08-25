@@ -9,8 +9,8 @@ multiuser Unix environment.
 
 * Understanding of Unix basics, including commands, text editors, etc.
 * Java packages.
-* Unix Tutorial Five: http://www.ee.surrey.ac.uk/Teaching/Unix/unix5.html
-* CSCI 1302 Octal Mode Reading: https://github.com/cs1302uga/cs1302-tutorials/blob/master/octal-mode.md
+* [Unix Tutorial Five](http://www.ee.surrey.ac.uk/Teaching/Unix/unix5.html)
+* [CSCI 1302 Octal Mode Reading](https://github.com/cs1302uga/cs1302-tutorials/blob/master/octal-mode.md)
 
 ## Course-Specific Learning Outcomes
 
