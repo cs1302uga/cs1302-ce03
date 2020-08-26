@@ -1,6 +1,6 @@
 # ce03 Multiuser System Fun Times
 
-![Approved for: Spring 2020](https://img.shields.io/badge/Approved%20for-Spring%202020-blue)
+![Approved for: Fall 2020](https://img.shields.io/badge/Approved%20for-Fall%202020-blueviolet)
 
 This class exercise is designed to familiarize students with file and directory permissions in a 
 multiuser Unix environment.
@@ -23,10 +23,10 @@ multiuser Unix environment.
 ## Questions
 
 In your notes, clearly answer the following questions. These instructions assume that you are 
-logged into the Nike server. 
+logged into the Odin server. 
 
 **NOTE 1:** For this exercise, at least two group members will need
-access to Nike at the same time. When relevant, the instructions will refer to **[user1]**, 
+access to Odin at the same time. When relevant, the instructions will refer to **[user1]**, 
 **[user2]**, and **[group]** to indicate who should perform the actions for that step. 
 Make sure you execute them in order.
 
@@ -36,7 +36,7 @@ present working directory), then please note that  context as well.
 
 ### Multiuser Intro
 
-1. **[user1]:** Launch a terminal emulator, login to Nike, then create the subdirectory structure 
+1. **[user1]:** Launch a terminal emulator, login to Odin, then create the subdirectory structure 
    seen below. What single command can be used to create this hierarchy of directories? Ignore
    `Loop.java` for now.
 
@@ -83,7 +83,7 @@ present working directory), then please note that  context as well.
    What exact command did you use?
    How do you know it worked (i.e., Is there a command you can use to verify this)? 
 
-1. **[user2]:** Launch a terminal emulator on your laptop, connect to nike on your account 
+1. **[user2]:** Launch a terminal emulator on your laptop, connect to odin on your account 
    (not the same account as `user1`).
 
 1. **[user2]:** Find the Process ID (PID) of user1's executing `cs1302.loop.Loop` process
@@ -137,7 +137,7 @@ present working directory), then please note that  context as well.
    $ chmod o+x ~
    ```
    
-   This step is needed because student home directories on Nike are in a group that is different 
+   This step is needed because student home directories on Odin are in a group that is different 
    from `ugrads`. Subdirectories of your home directory should belong to the `ugrads` group as 
    expected. You should remove execute permission for other __at the end of this activity__ using:
    
