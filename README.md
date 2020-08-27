@@ -36,7 +36,7 @@ present working directory), then please note that  context as well.
 
 ## Exercise Steps
 
-### Checkpoint 1 Steps
+### Checkpoint 1 Steps - Multiuser Intro
 
 1. **[user1]:** Launch a terminal emulator, login to Odin, then create the subdirectory structure 
    seen below. What single command can be used to create this hierarchy of directories? Ignore
