@@ -34,7 +34,9 @@ Make sure you execute them in order.
 typed to make the related action happen. If context is necessary (e.g., the command depends on your 
 present working directory), then please note that  context as well.
 
-### Multiuser Intro
+## Exercise Steps
+
+### Checkpoint 1 Steps
 
 1. **[user1]:** Launch a terminal emulator, login to Odin, then create the subdirectory structure 
    seen below. What single command can be used to create this hierarchy of directories? Ignore
@@ -112,9 +114,13 @@ present working directory), then please note that  context as well.
    administrators). It looks like user2 is not a superuser. Phew! Please go ahead and 
    terminate the process yourself. What command or sequence of commands did you use?
 
-**CHECKPOINT**
-    
-### File Permissions
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-1-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 2 Steps - File Permissions
 
 1. **[group]:** Each person in the group should execute the following command:
    
@@ -181,9 +187,13 @@ present working directory), then please note that  context as well.
    same group from making further changes. As always, write the full command you used
    in your notes.
 
-**CHECKPOINT** 
-    
-### Directory Permissions
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-2-success?style=for-the-badge)
+
+<hr/>
+
+### Checkpoint 3 Steps - Directory Permissions
 
 1. **[user1]:** Create a subdirectory within `exercise3` called `thoughts`. Inside of the 
    `thoughts` directory, add a file called `notes.txt`. Explicitly set the mode for each 
@@ -265,11 +275,11 @@ present working directory), then please note that  context as well.
    home directory?
    Explain your choice.
 
-**CHECKPOINT** 
-
 1. **[group]:** Change the mode of your home directory back to 750.
 
-**NOT A CHECKPOINT**
+<hr/>
+
+![CP](https://img.shields.io/badge/Just%20Finished%20Checkpoint-3-success?style=for-the-badge)
 
 <hr/>
 
